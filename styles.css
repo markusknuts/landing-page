@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -15,6 +19,7 @@
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -158,6 +163,14 @@
     width: 90px;
 }
 
-ul {
-    list-style-type: none;
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-info {
+    color: #F9FAF8;
 }
