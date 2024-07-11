@@ -121,6 +121,43 @@
     width: 600px;
 }
 
+.product-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    height: 200px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.banner-title {
+    font-size: 25px;
+}
+
+.su-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+}
+
 ul {
     list-style-type: none;
 }
